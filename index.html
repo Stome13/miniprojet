@@ -38,10 +38,14 @@
 </head>
 <body>
 
+<header>
     <nav class="navbar navbar-dark bg-info p-3 ">
         <a class="navbar-brand fw-bold" href="#">🎫 Tableau de bord support ticket</a>
     </nav>
 
+</header>
+
+<section>
     <div class="container mt-5">
         <div class="row g-4">
             <div class="col-md-6 col-lg-3">
@@ -99,56 +103,58 @@
                     <div class="col-md-6"><input class="form-control" type="text" placeholder="Rechercher un ticket... "></div>
                 </div>
 
-                <table class="table table-hover align-middle">
-                    <thead class="table-info">
-                        <tr>
-                            <th>ID</th>
-                            <th>Client</th>
-                            <th>Incident</th>
-                            <th>Priorité</th>
-                            <th>Statut</th>
-                            <th>Assigné à</th>
-                        </tr>
-                    </thead>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-info">
+                            <tr>
+                                <th>ID</th>
+                                <th>Client</th>
+                                <th>Incident</th>
+                                <th>Priorité</th>
+                                <th>Statut</th>
+                                <th>Assigné à</th>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                        <tr>
-                            <td>#fst50</td>
-                            <td>Marc</td>
-                            <td>Erreur de payement</td>
-                            <td><span class="bg-danger badge">Urgent</span></td>
-                            <td><span class="bg-warning badge text-dark">En cours</span></td>
-                            <td>Agent D</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>#fst50</td>
+                                <td>Marc</td>
+                                <td>Erreur de payement</td>
+                                <td><span class="bg-danger badge">Urgent</span></td>
+                                <td><span class="bg-warning badge text-dark">En cours</span></td>
+                                <td>Agent D</td>
+                            </tr>
 
-                        <tr>
-                            <td>#fct51</td>
-                            <td>Jean</td>
-                            <td>Question sur facturation</td>
-                            <td><span class="bg-warning badge">Moyenne</span></td>
-                            <td><span class="bg-success badge">Résolu</span></td>
-                            <td>Agent B</td>
-                        </tr>
+                            <tr>
+                                <td>#fct51</td>
+                                <td>Jean</td>
+                                <td>Question sur facturation</td>
+                                <td><span class="bg-warning badge">Moyenne</span></td>
+                                <td><span class="bg-success badge">Résolu</span></td>
+                                <td>Agent B</td>
+                            </tr>
                             
-                        <tr>
-                            <td>#fyt52</td>
-                            <td>Sandrine</td>
-                            <td>Demande de mise à jour</td>
-                            <td><span class="bg-secondary badge">Faible</span></td>
-                            <td><span class="bg-success badge">Résolu</span></td>
-                            <td>Agent A</td>
-                        </tr>
+                            <tr>
+                                <td>#fyt52</td>
+                                <td>Sandrine</td>
+                                <td>Demande de mise à jour</td>
+                                <td><span class="bg-secondary badge">Faible</span></td>
+                                <td><span class="bg-success badge">Résolu</span></td>
+                                <td>Agent A</td>
+                            </tr>
 
-                        <tr>
-                            <td>#fzt53</td>
-                            <td>John</td>
-                            <td>Probleme d'e-mail</td>
-                            <td><span class="bg-danger badge">Urgent</span></td>
-                            <td><span class="bg-primary badge">Ouvert</span></td>
-                            <td>Agent C</td>
-                        </tr>
-                    </tbody>
-                </table>
+                            <tr>
+                                <td>#fzt53</td>
+                                <td>John</td>
+                                <td>Probleme d'e-mail</td>
+                                <td><span class="bg-danger badge">Urgent</span></td>
+                                <td><span class="bg-primary badge">Ouvert</span></td>
+                                <td>Agent C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
@@ -191,6 +197,7 @@
             </form>
         </div>
     </div>
+</section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>        
